@@ -1,3 +1,4 @@
 # answer me pls
-帮基友做的，祝福她女朋友生日快乐
+tặng bạn gái của tôi
+https://pyke9.github.io/Answer-me-pls/
 
