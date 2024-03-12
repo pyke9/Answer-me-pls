@@ -18,9 +18,13 @@
         </style>
 </head>
     <body>
-      <audio autoplay="autopaly">
-          <source src="music/PCCDNYE.mp3" type="audio/mp3" />
-      </audio>  
+        <div class="content">
+            <div class="music-control" >
+                <audio controls autoplay loop class="music" style="display: none;">
+                    <source src="./music/PCCDNYE.mp3" type="audio/mp3" />
+                </audio>
+            </div>
+        </div>
         <div id="main">
              <div id="wrap">
                 <div id="text">
@@ -211,5 +215,10 @@
         runAsync().start();
     })();
     </script>
-
+    <script>
+        window.addEventListener('click', function () {
+            var audio = document.querySelector('.music');
+            audio.play();
+        });
+    </script>
     </body></html>
